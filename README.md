@@ -1,0 +1,2 @@
+# js-simon
+Simon Says
