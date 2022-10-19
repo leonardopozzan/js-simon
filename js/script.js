@@ -34,10 +34,7 @@ function retry(){
     message.innerHTML = '';
     message.classList.remove('text-white');
     message.classList.remove('text-danger');
-    btnPlay.classList.remove('btn-success');
-    if (!btnPlay.classList.contains('btn-dark')){
-        btnPlay.classList.add('btn-dark');
-    }
+    
 }
 
 function handleClick(){
@@ -97,8 +94,6 @@ function handleClick(){
         if(userNumbers.length == numbersGenerated.length){
             hiddenElement(userInput);
             btnPlay.value = 'Verify';
-            btnPlay.classList.remove('btn-dark');
-            btnPlay.classList.add('btn-success');
         }
     }else if(this.value == 'Verify'){
         btnPlay.classList.add('btn-dark');
