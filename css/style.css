@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-container{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+.box{
+    padding: 80px;
+    background-color: #3B7896;
+    border-radius: 50px;
+    color: white;
+    overflow: auto;
+}
+.game{
+    height: 200px;
+}
+.my-d-none{
+    display: none;
+}
+.result{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.message{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
