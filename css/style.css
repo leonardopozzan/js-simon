@@ -31,9 +31,14 @@
 .result{
     margin-top: 2rem;
     font-size: 4rem;
+    transition: opacity 0.25s;
+    opacity: 0;
 }
 .message{
     margin-top: 1rem;
     font-size: 1.5rem;
     color: black;
+}
+.opacity-1{
+    opacity: 1;
 }
